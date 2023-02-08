@@ -1,0 +1,11 @@
+pip install requests
+
+pip install pprint
+
+import requests 
+from pprint import pprint
+API= "339356088c77e54e90b6f292f16f06f7"
+city=input("Enter any city: ")
+base_url='https://api.openweathermap.org/data/2.5/weather?q="' + API
+weather_data=requests.get(baseurl).json()
+print (weather_data)

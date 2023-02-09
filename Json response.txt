@@ -1,0 +1,4 @@
+Enter City Name Delhi
+{'coord': {'lon': 77.2167, 'lat': 28.6667}, 'weather': [{'id': 721, 'main': 'Haze', 'description': 'haze', 'icon': '50n'}], 'base': 'stations', 'main': {'temp': 290.2, 'feels_like': 289.61, 'temp_min': 290.2, 'temp_max': 290.2, 'pressure': 1015, 'humidity': 63}, 'visibility': 2800, 'wind': {'speed': 1.54, 'deg': 260}, 'clouds': {'all': 10}, 'dt': 1675875952, 'sys': {'type': 1, 'id': 9165, 'country': 'IN', 'sunrise': 1675820126, 'sunset': 1675859713}, 'timezone': 19800, 'id': 1273294, 'name': 'Delhi', 'cod': 200}
+
+Process finished with exit code 0

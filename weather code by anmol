@@ -1,0 +1,15 @@
+import requests
+import pprint
+
+api_key = "339356088c77e54e90b6f292f16f06f7"
+
+city_name = "dehradun"
+country_code = "IN"
+base_url = "http://api.openweathermap.org/data/2.5/weather?"
+
+complete_url = base_url + "appid=" + api_key + "&q=" + city_name + "," + country_code
+
+response = requests.get(complete_url)
+weather_data = response.json()
+
+pprint.pprint(weather_data)
